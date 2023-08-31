@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #fff;
+  --secondary-color: #111827;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.nav {
+  float: right;
+}
+
+#navbar-color {
+  background-color: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.btn,
+.btn:hover,
+.btn:focus {
+  background-color: #111827;
+  color: white;
+}
+
+/* rating page navbar  */
+header {
+  padding: 1rem;
+  color: #fff;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  background-color: var(--secondary-color);
+}
+
+
+.colornav1 {
+  color: #fff;
+}
+
+
+.search {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+.search::placeholder {
+  color: #7378c5;
+}
+
+
+
+.search:focus {
+  outline: none;
+  background-color: var(--primary-color);
+}
+
+.rate {
+
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.table-color {
+
+  color: white;
+
+}
